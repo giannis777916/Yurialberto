@@ -1,10 +1,10 @@
 /* Estilos gerais */
 body {
-    background-color: #6c3baa; /* Cor de fundo da home page */
+    background-color: #6c3baa; /* Cor de fundo da página */
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     margin: 0;
-    color: white; /* Cor do texto em geral */
+    color: white; /* Cor do texto geral */
 }
 
 h1 {
@@ -19,7 +19,7 @@ h2 {
     font-size: 32px;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 p {
@@ -29,6 +29,50 @@ p {
     text-align: left;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+/* Estilo para os links */
+a {
+    color: white; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+a:hover {
+    color: #dcdcdc; /* Cor ligeiramente mais clara para quando o link é hover (passa o mouse em cima) */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #6c3baa; /* Cor de fundo do cabeçalho */
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Alinha os itens do menu centralizados */
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #dcdcdc;
+}
+
+/* Estilos para a caixa de conteúdo (onde ficam os textos) */
+.container {
+    max-width: 960px;
+    margin: 0 auto; /* Centraliza o conteúdo */
 }
 
 /* Estilos para as caixas de profecias */
@@ -55,18 +99,15 @@ p {
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
-/* Estilo para os links */
-a {
-    color: white; /* Cor branca para os links */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: white;
 }
 
-a:hover {
-    color: #dcdcdc; /* Cor ligeiramente mais clara para quando o link é hover (passa o mouse em cima) */
-}
-
-/* Estilos para dispositivos móveis */
+/* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
         font-size: 28px;
@@ -78,5 +119,14 @@ a:hover {
 
     .prophecy p {
         font-size: 16px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 20px;
     }
 }
