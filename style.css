@@ -1,14 +1,17 @@
 body {
     background-color: #6c3baa;
-    font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    text-align: center; /* Centraliza apenas o conteúdo dentro do body */
+    display: flex;
+    flex-direction: column; /* Garante que os elementos fiquem um abaixo do outro */
+    align-items: center; /* Centraliza apenas no eixo horizontal */
 }
 
 h1 {
     color: white;
     font-size: 48px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -16,15 +19,14 @@ h2 {
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 20px;
-    text-align: left; /* Mantém o h2 alinhado à esquerda */
+    align-self: flex-start; /* Faz o h2 ficar alinhado à esquerda */
 }
 
 p {
     color: white;
-    max-width: 800px; /* Aumentando a largura do parágrafo */
+    max-width: 800px;
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: a
+}
