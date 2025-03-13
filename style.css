@@ -31,37 +31,6 @@ p {
     margin-bottom: 20px;
 }
 
-/* Estilos para os links */
-a {
-    color: #ffffff; /* Cor inicial do link */
-    text-decoration: none; /* Remove o sublinhado padrão */
-    font-weight: 700; /* Tornar o texto mais forte */
-    transition: all 0.3s ease; /* Transição suave para o efeito de hover */
-}
-
-a:hover {
-    color: #6c3baa; /* Cor roxa ao passar o mouse */
-    text-decoration: underline; /* Adiciona um sublinhado no hover */
-    background-color: #fff; /* Cor de fundo ao passar o mouse */
-    padding: 5px; /* Adiciona um pequeno preenchimento ao hover */
-    border-radius: 5px; /* Bordas arredondadas */
-}
-
-/* Estilos específicos para a navegação (menu) */
-nav ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0;
-}
-
-nav ul li {
-    display: inline; /* Exibe os itens de forma horizontal */
-    margin-right: 20px; /* Adiciona espaço entre os links */
-}
-
-nav ul li a {
-    font-size: 20px; /* Tamanho da fonte dos links no menu */
-}
-
 /* Estilos para as caixas de profecias */
 .prophecy {
     background-color: #fff;           /* Fundo branco para as caixas de profecias */
@@ -86,6 +55,50 @@ nav ul li a {
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
+/* Estilos para o menu suspenso */
+.menu-button {
+    background-color: #fff;
+    border: 2px solid #6c3baa;
+    color: #6c3baa;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #6c3baa;
+    color: white;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu ul li a {
+    color: #6c3baa;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu ul li a:hover {
+    background-color: #f1f1f1;
+}
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
@@ -98,5 +111,10 @@ nav ul li a {
 
     .prophecy p {
         font-size: 16px;
+    }
+
+    .menu-button {
+        font-size: 14px;
+        padding: 8px 12px;
     }
 }

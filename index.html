@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JESUS CRISTO</title>
-    <!-- Link para a fonte Montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>JESUS CRISTO</h1>
-        <nav>
+        
+        <!-- Botão para mostrar o menu de links -->
+        <button class="menu-button" onclick="toggleMenu()">Menu</button>
+
+        <!-- Menu suspenso -->
+        <div id="dropdown-menu" class="dropdown-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="profecy.html">Profecias e Cumprimentos</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
 
     <div class="container">
@@ -29,5 +33,7 @@
         <h2>A Mensagem do Amor e do Perdão</h2>
         <p>Um dos aspectos mais marcantes da vida de Jesus foi sua ênfase no amor e no perdão. Ele ensinou a amar até mesmo os inimigos e demonstrou isso ao perdoar aqueles que o perseguiam. Sua compaixão por pecadores e marginalizados mostrou que ninguém está fora do alcance da graça divina.</p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
