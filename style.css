@@ -1,5 +1,6 @@
 body {
     background-color: #6c3baa;
+    font-family: Arial, sans-serif; /* Adicionando uma fonte padrão */
 }
 
 h1 {
@@ -9,7 +10,7 @@ h1 {
 }
 
 h2 {
-    color: white; /* Define a cor do h2 */
+    color: white;
     font-size: 28px; /* Tamanho da fonte para o h2 */
     margin-top: 0; /* Remove o espaço acima do h2 */
     margin-bottom: 0; /* Remove o espaço abaixo do h2 */
