@@ -38,7 +38,7 @@ h2 {
     text-align: center; /* Centraliza o subtítulo */
 }
 
-/* Estilo para os links */
+/* Estilo para os links no cabeçalho */
 header nav ul {
     list-style-type: none;
     padding: 0;
@@ -66,6 +66,9 @@ header nav ul li a:hover {
     margin: 100px auto 0; /* Deixa o conteúdo começando abaixo do cabeçalho fixo */
     padding: 20px;
     text-align: center; /* Centraliza o conteúdo da página */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens dentro da caixa de conteúdo */
 }
 
 /* Estilos para os parágrafos */
@@ -97,6 +100,7 @@ p {
     color: #6c3baa;
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center; /* Centraliza os títulos das profecias */
 }
 
 /* Estilos para os parágrafos das profecias */
