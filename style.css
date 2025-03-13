@@ -1,9 +1,10 @@
 /* Estilos gerais */
 body {
-    background-color: #6c3baa;
-    font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
+    background-color: #6c3baa; /* Cor de fundo da home page */
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    margin: 0; /* Remove qualquer margem padrão */
+    margin: 0;
+    color: white;
 }
 
 h1 {
@@ -16,51 +17,52 @@ h1 {
 h2 {
     color: white;
     font-size: 32px;
-    margin-top: 30px; /* Criando um espaço adequado entre os blocos */
+    margin-top: 30px;
     margin-bottom: 10px;
-    text-align: left; /* Alinhando o h2 à esquerda */
+    text-align: left;
 }
 
 p {
     color: white;
-    max-width: 800px; /* Mantendo o texto legível */
+    max-width: 800px;
     line-height: 1.8;
-    text-align: left; /* Alinhando o parágrafo à esquerda */
+    text-align: left;
     font-size: 20px;
-    margin-bottom: 20px; /* Adicionando espaçamento abaixo dos parágrafos */
+    margin-bottom: 20px;
 }
 
-/* Regras de mídia para dispositivos menores */
+/* Estilos da página de profecias */
+.prophecy {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.prophecy h3 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.prophecy p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
-    body {
-        padding: 10px; /* Menos padding para telas menores */
-    }
-
     h1 {
-        font-size: 36px; /* Reduzindo o tamanho do título principal */
+        font-size: 28px;
     }
 
     h2 {
-        font-size: 28px; /* Reduzindo o tamanho do subtítulo */
+        font-size: 24px;
     }
 
-    p {
-        font-size: 18px; /* Ajustando o tamanho da fonte do parágrafo */
-        max-width: 100%; /* Removendo o limite de largura para preencher a tela */
-    }
-}
-
-/* Regras de mídia para dispositivos muito pequenos (como smartphones em modo retrato) */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 28px; /* Reduzindo ainda mais o tamanho do título */
-    }
-
-    h2 {
-        font-size: 24px; /* Ajustando o subtítulo para telas muito pequenas */
-    }
-
-    p {
-        font-size: 16px; /* Fonte menor para dispositivos muito pequenos */
+    .prophecy p {
+        font-size: 16px;
     }
 }
