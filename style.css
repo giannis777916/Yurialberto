@@ -3,4 +3,10 @@ body{
     h1 {
         color: white;
     }
+    p {
+        max-width: 600px; /* Limita a largura do texto para facilitar a leitura */
+        line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+        text-align: justify; /* Justifica o texto */
+    }
+    
 }
