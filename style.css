@@ -30,14 +30,14 @@ header {
 
 h1 {
     color: white;
-    font-size: 6vw; /* Usando vw para tamanho responsivo */
+    font-size: 3vw; /* Usando vw para tamanho responsivo */
     margin-bottom: 2%; /* Usando porcentagem */
     text-align: center; /* Centraliza o título */
 }
 
 h2 {
     color: white;
-    font-size: 4vw; /* Usando vw para tamanho responsivo */
+    font-size: 2vw; /* Usando vw para tamanho responsivo */
     margin-top: 3%;
     margin-bottom: 2%;
     text-align: center; /* Centraliza o subtítulo */
