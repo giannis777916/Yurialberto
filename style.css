@@ -1,11 +1,6 @@
 body {
     background-color: #6c3baa;
-    font-family: 'Montserrat', sans-serif;
-    display: flex; /* Usando o Flexbox */
-    justify-content: space-between; /* Distribuindo o conteúdo entre o texto e a imagem */
-    align-items: center; /* Alinhando verticalmente */
-    padding: 20px;
-    gap: 20px; /* Espaço entre o conteúdo e a imagem */
+    font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
 }
 
 h1 {
@@ -23,16 +18,9 @@ h2 {
 
 p {
     color: white;
-    max-width: 600px; /* Aumentei um pouco a largura do texto */
+    max-width: 800px; /* Aumentando a largura do parágrafo */
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
-}
-
-.imagem img {
-    max-width: 500px; /* Ajuste o tamanho máximo da imagem */
-    width: 100%;
-    height: auto; /* Para manter a proporção da imagem */
-    border-radius: 10px; /* Bordas arredondadas para um efeito mais suave */
 }
