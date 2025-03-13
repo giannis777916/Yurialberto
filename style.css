@@ -1,10 +1,8 @@
 body {
     background-color: #6c3baa;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Mantém o conteúdo centralizado no body */
+    margin: 0; /* Remove qualquer margem padrão */
 }
 
 h1 {
@@ -14,23 +12,19 @@ h1 {
     text-align: center;
 }
 
-.container {
-    max-width: 800px; /* Define um tamanho fixo para manter a organização */
-    width: 100%;
-}
-
 h2 {
     color: white;
     font-size: 32px;
-    margin-top: 0;
+    margin-top: 30px; /* Criando um espaço adequado entre os blocos */
     margin-bottom: 10px;
-    text-align: left; /* Alinha o h2 à esquerda */
+    text-align: left; /* Alinhando o h2 à esquerda */
 }
 
 p {
     color: white;
+    max-width: 800px; /* Mantendo o texto legível */
     line-height: 1.8;
-    text-align: justify;
+    text-align: left; /* Alinhando o parágrafo à esquerda */
     font-size: 20px;
-    margin-top: 0;
+    margin-bottom: 20px; /* Adicionando espaçamento abaixo dos parágrafos */
 }
