@@ -9,8 +9,9 @@ body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif;
     display: flex; /* Usamos flexbox para alinhar o conteúdo */
-    justify-content: center; /* Centraliza o conteúdo */
-    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    flex-direction: column; /* Organiza os itens na vertical */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
     height: 100vh; /* Garantimos que o body ocupe toda a altura da tela */
     padding: 20px;
     color: white;
@@ -27,7 +28,7 @@ h2 {
 }
 
 p {
-    max-width: 800px; /* Aumenta o tamanho máximo do texto */
+    max-width: 800px; /* Limita a largura do parágrafo */
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
