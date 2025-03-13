@@ -1,6 +1,12 @@
 body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
+    display: flex; /* Usando flexbox */
+    flex-direction: column; /* Organiza os itens verticalmente (um abaixo do outro) */
+    align-items: center; /* Alinha o conteúdo horizontalmente no centro */
+    justify-content: center; /* Centraliza o conteúdo na tela */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    padding: 20px;
 }
 
 h1 {
@@ -13,7 +19,7 @@ h2 {
     color: white;
     font-size: 32px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 p {
