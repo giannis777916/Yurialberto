@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
@@ -27,4 +28,39 @@ p {
     text-align: left; /* Alinhando o parágrafo à esquerda */
     font-size: 20px;
     margin-bottom: 20px; /* Adicionando espaçamento abaixo dos parágrafos */
+}
+
+/* Regras de mídia para dispositivos menores */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Menos padding para telas menores */
+    }
+
+    h1 {
+        font-size: 36px; /* Reduzindo o tamanho do título principal */
+    }
+
+    h2 {
+        font-size: 28px; /* Reduzindo o tamanho do subtítulo */
+    }
+
+    p {
+        font-size: 18px; /* Ajustando o tamanho da fonte do parágrafo */
+        max-width: 100%; /* Removendo o limite de largura para preencher a tela */
+    }
+}
+
+/* Regras de mídia para dispositivos muito pequenos (como smartphones em modo retrato) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px; /* Reduzindo ainda mais o tamanho do título */
+    }
+
+    h2 {
+        font-size: 24px; /* Ajustando o subtítulo para telas muito pequenas */
+    }
+
+    p {
+        font-size: 16px; /* Fonte menor para dispositivos muito pequenos */
+    }
 }
