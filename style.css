@@ -26,7 +26,7 @@ p {
     color: white; /* Cor do texto padrão */
     max-width: 800px;
     line-height: 1.8;
-    text-align: left;
+    text-align: justify; /* Justifica os parágrafos */
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -97,6 +97,7 @@ header nav ul li a:hover {
     font-size: 18px;                  /* Tamanho da fonte do texto */
     line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
+    text-align: justify;              /* Justifica os parágrafos dentro das caixas de profecias */
 }
 
 /* Estilos para o rodapé */
