@@ -4,7 +4,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Mantém os textos centralizados no corpo */
+    align-items: center; /* Mantém o conteúdo centralizado no body */
 }
 
 h1 {
@@ -14,21 +14,23 @@ h1 {
     text-align: center;
 }
 
+.container {
+    max-width: 800px; /* Define um tamanho fixo para manter a organização */
+    width: 100%;
+}
+
 h2 {
     color: white;
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 10px;
-    width: 800px; /* Largura fixa para alinhar com o parágrafo */
-    text-align: left; /* Agora ele fica à esquerda */
+    text-align: left; /* Alinha o h2 à esquerda */
 }
 
 p {
     color: white;
-    max-width: 800px; /* Mantém o texto em um limite confortável */
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
 }
-
