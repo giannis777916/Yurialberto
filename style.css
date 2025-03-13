@@ -23,6 +23,9 @@ header {
     left: 0;
     z-index: 1000; /* Garante que o cabeçalho fique por cima do conteúdo */
     height: 8vw; /* Definindo altura para o cabeçalho */
+    display: flex; /* Usando flexbox para centralizar */
+    justify-content: center; /* Centraliza o conteúdo dentro do cabeçalho */
+    align-items: center; /* Alinha o conteúdo verticalmente */
 }
 
 h1 {
@@ -45,6 +48,9 @@ header nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center; /* Alinha os links do menu centralizados */
+    display: flex; /* Usando flexbox para os itens do menu */
+    justify-content: center; /* Centraliza os itens do menu */
+    align-items: center; /* Alinha os itens verticalmente */
 }
 
 header nav ul li {
