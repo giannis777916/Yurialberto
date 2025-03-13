@@ -26,9 +26,9 @@ p {
     color: white; /* Cor do texto padrão */
     max-width: 800px;
     line-height: 1.8;
-    text-align: justify; /* Justifica os parágrafos */
     font-size: 20px;
     margin-bottom: 20px;
+    text-align: justify; /* Justifica os parágrafos */
 }
 
 /* Estilo para os links */
