@@ -55,6 +55,17 @@ p {
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
+/* Estilo para os links */
+a {
+    color: white; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+a:hover {
+    color: #dcdcdc; /* Cor ligeiramente mais clara para quando o link é hover (passa o mouse em cima) */
+}
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
