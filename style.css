@@ -5,6 +5,10 @@ body {
     padding: 20px;
     margin: 0;
     color: white; /* Cor do texto geral */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo da página */
+    align-items: center;     /* Centraliza o conteúdo da página verticalmente */
+    min-height: 100vh;       /* Garante que o conteúdo ocupe toda a altura da tela */
 }
 
 h1 {
@@ -48,6 +52,7 @@ a:hover {
 header {
     background-color: #6c3baa; /* Cor de fundo do cabeçalho */
     padding: 20px;
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
 }
 
 header nav ul {
@@ -75,6 +80,7 @@ header nav ul li a:hover {
 .container {
     max-width: 960px;
     margin: 0 auto; /* Centraliza o conteúdo */
+    text-align: center; /* Garante que o conteúdo da container seja centralizado */
 }
 
 /* Estilos para as caixas de profecias */
@@ -84,6 +90,9 @@ header nav ul li a:hover {
     padding: 20px;                    /* Espaçamento interno nas caixas */
     margin-bottom: 20px;              /* Espaço abaixo de cada caixa */
     border-radius: 8px;               /* Bordas arredondadas */
+    max-width: 800px;                 /* Limita a largura das caixas de profecias */
+    margin-left: auto;
+    margin-right: auto;               /* Centraliza as caixas de profecias */
 }
 
 /* Estilos para os títulos das profecias */
@@ -101,7 +110,7 @@ header nav ul li a:hover {
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
     text-align: justify;              /* Justifica os parágrafos dentro das caixas de profecias */
     margin-left: auto;
-    margin-right: auto; /* Centraliza o parágrafo nas caixas de profecias */
+    margin-right: auto;               /* Centraliza os parágrafos dentro das caixas de profecias */
 }
 
 /* Estilos para o rodapé */
