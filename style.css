@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     margin: 0;
-    color: white; /* Cor do texto em geral */
+    color: white;
 }
 
 h1 {
@@ -23,12 +23,43 @@ h2 {
 }
 
 p {
-    color: white; /* Cor do texto padrão */
+    color: white;
     max-width: 800px;
     line-height: 1.8;
     text-align: left;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+/* Estilos para os links */
+a {
+    color: #ffffff; /* Cor inicial do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 700; /* Tornar o texto mais forte */
+    transition: all 0.3s ease; /* Transição suave para o efeito de hover */
+}
+
+a:hover {
+    color: #6c3baa; /* Cor roxa ao passar o mouse */
+    text-decoration: underline; /* Adiciona um sublinhado no hover */
+    background-color: #fff; /* Cor de fundo ao passar o mouse */
+    padding: 5px; /* Adiciona um pequeno preenchimento ao hover */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilos específicos para a navegação (menu) */
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de forma horizontal */
+    margin-right: 20px; /* Adiciona espaço entre os links */
+}
+
+nav ul li a {
+    font-size: 20px; /* Tamanho da fonte dos links no menu */
 }
 
 /* Estilos para as caixas de profecias */
