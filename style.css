@@ -78,7 +78,7 @@ p {
     line-height: 1.8;
     font-size: 20px;
     margin: 0 auto 20px; /* Centraliza o parágrafo e adiciona margem inferior */
-    text-align: justify; /* Justifica todos os parágrafos */
+    text-align: center; /* Justifica todos os parágrafos */
 }
 
 /* Estilos para as caixas de profecias */
