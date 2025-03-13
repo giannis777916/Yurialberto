@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     margin: 0;
-    color: white; /* Cor do texto */
+    color: white; /* Cor do texto em geral */
 }
 
 h1 {
@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-    color: white;
+    color: white; /* Cor do texto padrão */
     max-width: 800px;
     line-height: 1.8;
     text-align: left;
@@ -33,53 +33,37 @@ p {
 
 /* Estilos para as caixas de profecias */
 .prophecy {
-    background-color: #fff; /* Fundo branco para as caixas de profecias */
-    border: 1px solid #ddd; /* Borda cinza clara */
-    padding: 20px; /* Espaçamento interno nas caixas */
-    margin-bottom: 20px; /* Espaço abaixo de cada caixa */
-    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #fff;           /* Fundo branco para as caixas de profecias */
+    border: 1px solid #ddd;           /* Borda cinza clara */
+    padding: 20px;                    /* Espaçamento interno nas caixas */
+    margin-bottom: 20px;              /* Espaço abaixo de cada caixa */
+    border-radius: 8px;               /* Bordas arredondadas */
 }
 
 /* Estilos para os títulos das profecias */
 .prophecy h3 {
-    color: #6c3baa; /* Cor roxa para os títulos */
-    font-size: 24px;
-    margin-bottom: 10px;
+    color: #6c3baa;                   /* Cor roxa para os títulos */
+    font-size: 24px;                  /* Tamanho da fonte do título */
+    margin-bottom: 10px;              /* Espaço abaixo do título */
 }
 
 /* Estilos para os parágrafos de cada profecia */
 .prophecy p {
-    color: #6c3baa; /* Cor roxa para o texto das profecias */
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 10px;
+    color: #6c3baa;                   /* Cor roxa para o texto das profecias */
+    font-size: 18px;                  /* Tamanho da fonte do texto */
+    line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
+    margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
-/* Estilos para links */
+/* Estilo para os links */
 a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    color: white; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-/* Estilos para o botão de alternar (se necessário) */
-#toggleMode {
-    background-color: #6c3baa;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-#toggleMode:hover {
-    background-color: #5a2e99;
+    color: #dcdcdc; /* Cor ligeiramente mais clara para quando o link é hover (passa o mouse em cima) */
 }
 
 /* Estilos para dispositivos móveis */
@@ -94,53 +78,5 @@ a:hover {
 
     .prophecy p {
         font-size: 16px;
-    }
-}
-
-/* Estilos para o modo escuro usando a media query */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212; /* Fundo escuro */
-        color: black; /* Cor do texto no modo escuro */
-    }
-
-    h1, h2, p {
-        color: black; /* Títulos e parágrafos em preto no modo escuro */
-    }
-
-    .prophecy {
-        background-color: #333; /* Fundo das caixas de profecias em modo escuro */
-        border: 1px solid #555; /* Borda mais escura */
-    }
-
-    .prophecy h3 {
-        color: black; /* Títulos das profecias em preto */
-    }
-
-    .prophecy p {
-        color: black; /* Texto das profecias em preto */
-    }
-
-    a {
-        color: black; /* Links em preto no modo escuro */
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    #toggleMode {
-        background-color: #6c3baa;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        border-radius: 5px;
-        margin-top: 20px;
-    }
-
-    #toggleMode:hover {
-        background-color: #5a2e99;
     }
 }
