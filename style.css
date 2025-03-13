@@ -8,9 +8,9 @@
 body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: space-between; /* Alinha o conteúdo */
-    align-items: flex-start; /* Alinha o conteúdo do topo */
+    display: flex; /* Usamos flexbox para alinhar o texto e a imagem lado a lado */
+    justify-content: flex-start;
+    align-items: flex-start; 
     padding: 20px;
 }
 
@@ -38,14 +38,15 @@ p {
 }
 
 .imagem {
-    flex-shrink: 0; /* Impede que a imagem encolha */
     width: 50%; /* A imagem vai ocupar 50% da largura */
+    display: flex; /* Faz com que a imagem fique lado a lado com o texto */
+    justify-content: center;
 }
 
 .imagem img {
-    width: 100%;
-    height: auto; /* A altura será proporcional à largura */
-    max-height: 100%; /* A altura da imagem será limitada à altura do parágrafo */
+    width: 100%; /* A largura da imagem será 100% da área disponível */
+    height: auto; /* A altura será ajustada proporcionalmente */
+    max-width: 300px; /* Limita a largura da imagem para não ficar muito grande */
     object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
     border-radius: 10px;
 }
