@@ -1,26 +1,51 @@
+/* Resetando margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #6c3baa;
-    font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between; /* Alinha o conteúdo */
+    align-items: flex-start; /* Alinha o conteúdo do topo */
+    padding: 20px;
+}
+
+h1, h2, p {
+    color: white;
 }
 
 h1 {
-    color: white;
     font-size: 48px;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: white;
     font-size: 32px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 p {
-    color: white;
-    max-width: 800px; /* Aumentando a largura do parágrafo */
+    max-width: 600px;
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
+    padding: 10px;
+    flex-grow: 1; /* Faz o texto ocupar o restante do espaço disponível */
+}
+
+.imagem {
+    flex-shrink: 0; /* Impede que a imagem encolha */
+    width: 50%; /* A imagem vai ocupar 50% da largura */
+}
+
+.imagem img {
+    width: 100%;
+    height: auto; /* A altura será proporcional à largura */
+    max-height: 100%; /* A altura da imagem será limitada à altura do parágrafo */
+    object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
+    border-radius: 10px;
 }
