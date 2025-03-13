@@ -1,26 +1,26 @@
 body {
     background-color: #6c3baa;
-    font-family: Arial, sans-serif; /* Adicionando uma fonte padrão */
+    font-family: "Montserrat", sans-serif; /* Aplicando a fonte Montserrat */
 }
 
 h1 {
-    color: white; /* Cor do texto do h1 */
-    font-size: 48px; /* Aumenta o tamanho da fonte do título */
-    margin-bottom: 20px; /* Adiciona espaço abaixo do h1 */
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: white; /* Cor do texto do h2 */
-    font-size: 32px; /* Tamanho da fonte para o h2 */
-    margin-top: 0; /* Remove o espaço acima do h2 */
-    margin-bottom: 0; /* Remove o espaço abaixo do h2 */
+    color: white;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
-    color: white; /* Cor do texto do parágrafo */
-    max-width: 600px; /* Limita a largura do texto para facilitar a leitura */
-    line-height: 1.8; /* Aumenta o espaçamento entre as linhas */
-    text-align: justify; /* Justifica o texto */
-    font-size: 20px; /* Aumenta o tamanho da fonte dos parágrafos */
-    margin-top: 0; /* Remove o espaço acima do p */
+    color: white;
+    max-width: 800px; /* Aumentando a largura do parágrafo */
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0;
 }
