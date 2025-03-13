@@ -107,7 +107,7 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 10px;
-    text-align: justify; /* Justifica os parágrafos dentro das caixas de profecias */
+    text-align: left; /* Justifica os parágrafos dentro das caixas de profecias */
 }
 
 /* Estilos para o rodapé */
