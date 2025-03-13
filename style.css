@@ -22,7 +22,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000; /* Garante que o cabeçalho fique por cima do conteúdo */
-    height: 8vw; /* Definindo altura para o cabeçalho */
+    height: 4vw; /* Definindo altura para o cabeçalho */
     display: flex; /* Usando flexbox para centralizar */
     justify-content: center; /* Centraliza o conteúdo dentro do cabeçalho */
     align-items: center; /* Alinha o conteúdo verticalmente */
