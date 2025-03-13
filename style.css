@@ -4,10 +4,12 @@ body {
 
 h1 {
     color: white;
+    font-size: 36px; /* Aumenta o tamanho da fonte do título */
 }
 
 p {
     max-width: 600px; /* Limita a largura do texto para facilitar a leitura */
     line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
     text-align: justify; /* Justifica o texto */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos parágrafos */
 }
