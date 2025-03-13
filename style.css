@@ -5,29 +5,13 @@ body {
     padding: 20px;
     margin: 0;
     color: white; /* Cor do texto geral */
-    display: flex;
-    flex-direction: column; /* Organiza os elementos em uma coluna */
-    align-items: center;     /* Centraliza o conteúdo na horizontal */
-    min-height: 100vh;       /* Garante que o conteúdo ocupe toda a altura da tela */
-}
-
-/* Estilo para o cabeçalho */
-header {
-    background-color: #6c3baa; /* Cor de fundo do cabeçalho */
-    padding: 20px;
-    width: 100%; /* Faz com que o cabeçalho ocupe toda a largura da tela */
-    text-align: center; /* Centraliza os itens dentro do cabeçalho */
-    position: fixed; /* Deixa o cabeçalho fixo no topo */
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Garante que o cabeçalho fique por cima do conteúdo */
 }
 
 h1 {
     color: white;
     font-size: 48px;
     margin-bottom: 20px;
-    text-align: center; /* Centraliza o título */
+    text-align: center;
 }
 
 h2 {
@@ -35,14 +19,39 @@ h2 {
     font-size: 32px;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-align: center; /* Centraliza o subtítulo */
+    text-align: center;
 }
 
-/* Estilo para os links no cabeçalho */
+p {
+    color: white; /* Cor do texto padrão */
+    max-width: 800px;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os links */
+a {
+    color: white; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+a:hover {
+    color: #dcdcdc; /* Cor ligeiramente mais clara para quando o link é hover (passa o mouse em cima) */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #6c3baa; /* Cor de fundo do cabeçalho */
+    padding: 20px;
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Alinha os links do menu centralizados */
+    text-align: center; /* Alinha os itens do menu centralizados */
 }
 
 header nav ul li {
@@ -57,59 +66,37 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #dcdcdc; /* Cor de hover para os links */
+    color: #dcdcdc;
 }
 
-/* Estilo para o conteúdo */
+/* Estilos para a caixa de conteúdo (onde ficam os textos) */
 .container {
     max-width: 960px;
-    margin: 100px auto 0; /* Deixa o conteúdo começando abaixo do cabeçalho fixo */
-    padding: 20px;
-    text-align: center; /* Centraliza o conteúdo da página */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza os itens dentro da caixa de conteúdo */
-}
-
-/* Estilos para os parágrafos */
-p {
-    color: white;
-    max-width: 800px;
-    line-height: 1.8;
-    font-size: 20px;
-    margin-bottom: 20px;
-    text-align: justify; /* Justifica todos os parágrafos */
-    margin-left: auto;
-    margin-right: auto; /* Centraliza o parágrafo */
+    margin: 0 auto; /* Centraliza o conteúdo */
 }
 
 /* Estilos para as caixas de profecias */
 .prophecy {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto; /* Centraliza as caixas de profecias */
+    background-color: #fff;           /* Fundo branco para as caixas de profecias */
+    border: 1px solid #ddd;           /* Borda cinza clara */
+    padding: 20px;                    /* Espaçamento interno nas caixas */
+    margin-bottom: 20px;              /* Espaço abaixo de cada caixa */
+    border-radius: 8px;               /* Bordas arredondadas */
 }
 
 /* Estilos para os títulos das profecias */
 .prophecy h3 {
-    color: #6c3baa;
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center; /* Centraliza os títulos das profecias */
+    color: #6c3baa;                   /* Cor roxa para os títulos */
+    font-size: 24px;                  /* Tamanho da fonte do título */
+    margin-bottom: 10px;              /* Espaço abaixo do título */
 }
 
-/* Estilos para os parágrafos das profecias */
+/* Estilos para os parágrafos de cada profecia */
 .prophecy p {
-    color: #6c3baa;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    text-align: justify; /* Justifica os parágrafos dentro das caixas de profecias */
+    color: #6c3baa;                   /* Cor roxa para o texto das profecias */
+    font-size: 18px;                  /* Tamanho da fonte do texto */
+    line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
+    margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
 /* Estilos para o rodapé */
