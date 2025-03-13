@@ -3,8 +3,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     display: flex;
-    flex-direction: column; /* Garante que os elementos fiquem um abaixo do outro */
-    align-items: center; /* Centraliza apenas no eixo horizontal */
+    flex-direction: column;
+    align-items: center; /* Mantém os textos centralizados no corpo */
 }
 
 h1 {
@@ -18,15 +18,17 @@ h2 {
     color: white;
     font-size: 32px;
     margin-top: 0;
-    margin-bottom: 20px;
-    align-self: flex-start; /* Faz o h2 ficar alinhado à esquerda */
+    margin-bottom: 10px;
+    width: 800px; /* Largura fixa para alinhar com o parágrafo */
+    text-align: left; /* Agora ele fica à esquerda */
 }
 
 p {
     color: white;
-    max-width: 800px;
+    max-width: 800px; /* Mantém o texto em um limite confortável */
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
 }
+
