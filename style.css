@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     margin: 0;
-    color: white;
+    color: white; /* Cor do texto em geral */
 }
 
 h1 {
@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-    color: white;
+    color: white; /* Cor do texto padrão */
     max-width: 800px;
     line-height: 1.8;
     text-align: left;
