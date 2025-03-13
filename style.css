@@ -2,150 +2,131 @@
 body {
     background-color: #6c3baa; /* Cor de fundo da página */
     font-family: 'Montserrat', sans-serif;
-    padding: 2%; /* Usando porcentagem para a margem interna */
+    padding: 20px;
     margin: 0;
     color: white; /* Cor do texto geral */
-    display: flex;
-    flex-direction: column; /* Organiza os elementos em uma coluna */
-    align-items: center;     /* Centraliza o conteúdo na horizontal */
-    min-height: 100vh;       /* Garante que o conteúdo ocupe toda a altura da tela */
-    padding-top: 10%; /* Espaço para compensar o cabeçalho fixo */
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    color: white; /* Cor do texto padrão */
+    max-width: 800px;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os links */
+a {
+    color: white; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+a:hover {
+    color: #dcdcdc; /* Cor ligeiramente mais clara para quando o link é hover (passa o mouse em cima) */
 }
 
 /* Estilo para o cabeçalho */
 header {
     background-color: #6c3baa; /* Cor de fundo do cabeçalho */
-    padding: 2%; /* Usando porcentagem para o padding */
-    width: 100%; /* Faz com que o cabeçalho ocupe toda a largura da tela */
-    text-align: center; /* Alinha os itens dentro do cabeçalho */
-    position: fixed; /* Deixa o cabeçalho fixo no topo */
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Garante que o cabeçalho fique por cima do conteúdo */
-    height: 6vw; /* Definindo altura para o cabeçalho */
-    display: flex; /* Usando flexbox para centralizar */
-    justify-content: center; /* Centraliza o conteúdo dentro do cabeçalho */
-    align-items: center; /* Alinha o conteúdo verticalmente */
+    padding: 20px;
 }
 
-h1 {
-    color: white;
-    font-size: 3vw; /* Usando vw para tamanho responsivo */
-    margin-bottom: 2%; /* Usando porcentagem */
-    text-align: center; /* Centraliza o título */
-}
-
-h2 {
-    color: white;
-    font-size: 2vw; /* Usando vw para tamanho responsivo */
-    margin-top: 3%;
-    margin-bottom: 2%;
-    text-align: center; /* Centraliza o subtítulo */
-}
-
-/* Estilo para os links no cabeçalho */
 header nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Alinha os links do menu centralizados */
-    display: flex; /* Usando flexbox para os itens do menu */
-    justify-content: center; /* Centraliza os itens do menu */
-    align-items: center; /* Alinha os itens verticalmente */
+    text-align: center; /* Alinha os itens do menu centralizados */
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 2vw; /* Usando vw para espaçamento responsivo */
+    margin: 0 15px;
 }
 
 header nav ul li a {
     color: white;
-    font-size: 2vw; /* Usando vw para tamanho responsivo */
+    font-size: 18px;
     text-decoration: none;
 }
 
 header nav ul li a:hover {
-    color: #dcdcdc; /* Cor de hover para os links */
+    color: #dcdcdc;
 }
 
-/* Estilo para o conteúdo */
+/* Estilos para a caixa de conteúdo (onde ficam os textos) */
 .container {
-    max-width: 80%; /* Usando porcentagem para a largura */
-    margin: 10% auto 0; /* Ajusta para dar espaço superior e centralizar */
-    padding: 2%;
-    text-align: center; /* Centraliza o conteúdo da página */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza os itens dentro da caixa de conteúdo */
-}
-
-/* Estilos para os parágrafos */
-p {
-    color: white;
-    max-width: 80%; /* Usando porcentagem para a largura */
-    line-height: 1.8;
-    font-size: 4vw; /* Usando vw para tamanho responsivo */
-    margin: 0 auto 3%; /* Centraliza o parágrafo e adiciona margem inferior */
-    text-align: justify; /* Justifica todos os parágrafos */
+    max-width: 960px;
+    margin: 0 auto; /* Centraliza o conteúdo */
 }
 
 /* Estilos para as caixas de profecias */
 .prophecy {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 3%; /* Usando porcentagem */
-    margin-bottom: 5%; /* Usando porcentagem */
-    border-radius: 8px;
-    max-width: 80%; /* Usando porcentagem para a largura */
-    margin-left: auto;
-    margin-right: auto; /* Centraliza as caixas de profecias */
+    background-color: #fff;           /* Fundo branco para as caixas de profecias */
+    border: 1px solid #ddd;           /* Borda cinza clara */
+    padding: 20px;                    /* Espaçamento interno nas caixas */
+    margin-bottom: 20px;              /* Espaço abaixo de cada caixa */
+    border-radius: 8px;               /* Bordas arredondadas */
 }
 
 /* Estilos para os títulos das profecias */
 .prophecy h3 {
-    color: #6c3baa;
-    font-size: 5vw; /* Usando vw para tamanho responsivo */
-    margin-bottom: 2%;
-    text-align: center; /* Centraliza os títulos das profecias */
+    color: #6c3baa;                   /* Cor roxa para os títulos */
+    font-size: 24px;                  /* Tamanho da fonte do título */
+    margin-bottom: 10px;              /* Espaço abaixo do título */
 }
 
-/* Estilos para os parágrafos das profecias */
+/* Estilos para os parágrafos de cada profecia */
 .prophecy p {
-    color: #6c3baa;
-    font-size: 3.5vw; /* Usando vw para tamanho responsivo */
-    line-height: 1.6;
-    margin-bottom: 2%; /* Usando porcentagem */
-    text-align: justify; /* Justifica os parágrafos dentro das caixas de profecias */
+    color: #6c3baa;                   /* Cor roxa para o texto das profecias */
+    font-size: 18px;                  /* Tamanho da fonte do texto */
+    line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
+    margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
 /* Estilos para o rodapé */
 footer {
     text-align: center;
-    margin-top: 5%; /* Usando porcentagem para o espaçamento superior */
-    font-size: 1.5vw; /* Usando vw para tamanho responsivo */
+    margin-top: 50px;
+    font-size: 14px;
     color: white;
 }
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
-        font-size: 8vw; /* Usando vw para tamanho responsivo */
+        font-size: 28px;
     }
 
     h2 {
-        font-size: 6vw; /* Usando vw para tamanho responsivo */
+        font-size: 24px;
     }
 
     .prophecy p {
-        font-size: 5vw; /* Usando vw para tamanho responsivo */
+        font-size: 16px;
     }
 
     header nav ul li {
         display: block;
-        margin: 2vw 0; /* Usando vw para espaçamento responsivo */
+        margin: 10px 0;
     }
 
     .container {
-        padding: 5%;
+        padding: 20px;
     }
 }
