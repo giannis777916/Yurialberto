@@ -2,7 +2,7 @@ body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
     padding: 20px;
-    text-align: center; /* Centraliza o texto */
+    text-align: center; /* Centraliza apenas o conteúdo dentro do body */
 }
 
 h1 {
@@ -16,6 +16,7 @@ h2 {
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 20px;
+    text-align: left; /* Mantém o h2 alinhado à esquerda */
 }
 
 p {
@@ -25,5 +26,5 @@ p {
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
-}
+    margin-bottom: 20px;
+    margin-left: a
