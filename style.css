@@ -11,7 +11,7 @@ h1 {
     color: white;
     font-size: 48px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: center; /* Centraliza o título */
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
     font-size: 32px;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; /* Centraliza o subtítulo */
 }
 
 p {
@@ -28,7 +28,7 @@ p {
     line-height: 1.8;
     font-size: 20px;
     margin-bottom: 20px;
-    text-align: justify; /* Justifica os parágrafos */
+    text-align: center; /* Centraliza os parágrafos */
 }
 
 /* Estilo para os links */
@@ -97,7 +97,7 @@ header nav ul li a:hover {
     font-size: 18px;                  /* Tamanho da fonte do texto */
     line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
-    text-align: justify;              /* Justifica os parágrafos dentro das caixas de profecias */
+    text-align: center;               /* Centraliza os parágrafos dentro das caixas de profecias */
 }
 
 /* Estilos para o rodapé */
