@@ -31,26 +31,28 @@ p {
     margin-bottom: 20px;
 }
 
-/* Estilos da página de profecias */
+/* Estilos para as caixas de profecias */
 .prophecy {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+    background-color: #fff;           /* Fundo branco para as caixas de profecias */
+    border: 1px solid #ddd;           /* Borda cinza clara */
+    padding: 20px;                    /* Espaçamento interno nas caixas */
+    margin-bottom: 20px;              /* Espaço abaixo de cada caixa */
+    border-radius: 8px;               /* Bordas arredondadas */
 }
 
+/* Estilos para os títulos das profecias */
 .prophecy h3 {
-    color: #000000;
-    font-size: 24px;
-    margin-bottom: 10px;
+    color: #000000;                   /* Cor preta para os títulos */
+    font-size: 24px;                  /* Tamanho da fonte do título */
+    margin-bottom: 10px;              /* Espaço abaixo do título */
 }
 
+/* Estilos para os parágrafos de cada profecia */
 .prophecy p {
-    color:#6c3baa;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 10px;
+    color: #6c3baa;                   /* Cor roxa para o texto das profecias */
+    font-size: 18px;                  /* Tamanho da fonte do texto */
+    line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
+    margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
 }
 
 /* Estilos para dispositivos móveis */
