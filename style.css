@@ -8,13 +8,11 @@
 body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif;
-    display: flex; /* Usamos flexbox para alinhar o texto e a imagem lado a lado */
-    justify-content: flex-start;
-    align-items: flex-start; 
+    display: flex; /* Usamos flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    height: 100vh; /* Garantimos que o body ocupe toda a altura da tela */
     padding: 20px;
-}
-
-h1, h2, p {
     color: white;
 }
 
@@ -25,28 +23,15 @@ h1 {
 
 h2 {
     font-size: 32px;
+    margin-bottom: 20px;
 }
 
 p {
-    max-width: 600px;
+    max-width: 800px; /* Aumenta o tamanho máximo do texto */
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
     padding: 10px;
-    flex-grow: 1; /* Faz o texto ocupar o restante do espaço disponível */
-}
-
-.imagem {
-    width: 50%; /* A imagem vai ocupar 50% da largura */
-    display: flex; /* Faz com que a imagem fique lado a lado com o texto */
-    justify-content: center;
-}
-
-.imagem img {
-    width: 100%; /* A largura da imagem será 100% da área disponível */
-    height: auto; /* A altura será ajustada proporcionalmente */
-    max-width: 300px; /* Limita a largura da imagem para não ficar muito grande */
-    object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
-    border-radius: 10px;
+    font-weight: 300;
 }
