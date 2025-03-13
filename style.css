@@ -24,11 +24,13 @@ h2 {
 
 p {
     color: white; /* Cor do texto padrão */
-    max-width: 800px;
+    max-width: 800px;  /* Limita a largura dos parágrafos */
     line-height: 1.8;
     font-size: 20px;
     margin-bottom: 20px;
-    text-align: center; /* Centraliza os parágrafos */
+    text-align: justify; /* Justifica todos os parágrafos */
+    margin-left: auto;
+    margin-right: auto; /* Centraliza o parágrafo */
 }
 
 /* Estilo para os links */
@@ -97,7 +99,9 @@ header nav ul li a:hover {
     font-size: 18px;                  /* Tamanho da fonte do texto */
     line-height: 1.6;                 /* Altura de linha para melhorar a legibilidade */
     margin-bottom: 10px;              /* Espaço abaixo do parágrafo */
-    text-align: center;               /* Centraliza os parágrafos dentro das caixas de profecias */
+    text-align: justify;              /* Justifica os parágrafos dentro das caixas de profecias */
+    margin-left: auto;
+    margin-right: auto; /* Centraliza o parágrafo nas caixas de profecias */
 }
 
 /* Estilos para o rodapé */
