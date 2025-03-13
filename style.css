@@ -1,38 +1,38 @@
-/* Resetando margens e preenchimento */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color: #6c3baa;
     font-family: 'Montserrat', sans-serif;
-    display: flex; /* Usamos flexbox para alinhar o conteúdo */
-    flex-direction: column; /* Organiza os itens na vertical */
-    justify-content: center; /* Centraliza o conteúdo verticalmente */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
-    height: 100vh; /* Garantimos que o body ocupe toda a altura da tela */
+    display: flex; /* Usando o Flexbox */
+    justify-content: space-between; /* Distribuindo o conteúdo entre o texto e a imagem */
+    align-items: center; /* Alinhando verticalmente */
     padding: 20px;
-    color: white;
+    gap: 20px; /* Espaço entre o conteúdo e a imagem */
 }
 
 h1 {
+    color: white;
     font-size: 48px;
     margin-bottom: 20px;
 }
 
 h2 {
+    color: white;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
-    max-width: 800px; /* Limita a largura do parágrafo */
+    color: white;
+    max-width: 600px; /* Aumentei um pouco a largura do texto */
     line-height: 1.8;
     text-align: justify;
     font-size: 20px;
     margin-top: 0;
-    padding: 10px;
-    font-weight: 300;
+}
+
+.imagem img {
+    max-width: 500px; /* Ajuste o tamanho máximo da imagem */
+    width: 100%;
+    height: auto; /* Para manter a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas para um efeito mais suave */
 }
