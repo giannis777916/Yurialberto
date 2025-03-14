@@ -78,4 +78,24 @@ header nav ul li a:hover {
 /* Estilos para as caixas de profecias */
 .prophecy {
     background-color: #fff;           /* Fundo branco para as caixas de profecias */
-    border: 1px solid #ddd
+    border: 1px solid #ddd;           /* Bordas suaves */
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: black;                      /* Cor do texto dentro das profecias */
+}
+
+.prophecy h3 {
+    color: #6c3baa;                    /* Cor para os títulos dentro das profecias */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    background-color: #4f2a9b; /* Fundo mais claro para o bloco de citações */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 20px 0;
+}
